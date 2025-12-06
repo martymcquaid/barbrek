@@ -160,7 +160,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="border-t border-gray-800 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm">
-                © 2024 Classic Cuts. All rights reserved.
+                © 2024 Armagh Barber Co. Since 1985. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
