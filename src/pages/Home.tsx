@@ -80,28 +80,49 @@ const Home: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900 text-white">
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+      <section className="relative bg-gradient-to-br from-red-800 via-red-600 to-red-800 text-white">
+        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="absolute inset-0 opacity-10">
+          <div className="h-full w-full" style={{
+            backgroundImage: `repeating-linear-gradient(
+              45deg,
+              transparent,
+              transparent 10px,
+              rgba(255,255,255,.1) 10px,
+              rgba(255,255,255,.1) 20px
+            )`
+          }}></div>
+        </div>
         <div className="relative container mx-auto px-4 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Classic Cuts,
-              <span className="text-indigo-400 block">Modern Style</span>
+            <div className="mb-6">
+              <div className="inline-flex items-center space-x-4 mb-4">
+                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 bg-red-600 rounded-full"></div>
+                </div>
+                <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 bg-white rounded-full"></div>
+                </div>
+              </div>
+            </div>
+            <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight font-serif">
+              Armagh Barber Co.
+              <span className="text-red-200 block">Since 1985</span>
             </h1>
-            <p className="text-xl lg:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
-              Experience the perfect blend of traditional barbering and contemporary style. 
-              Where every cut tells a story.
+            <p className="text-xl lg:text-2xl mb-8 text-red-100 max-w-2xl mx-auto">
+              Traditional barbering in the heart of Cathedral City. Experience timeless craftsmanship 
+              and heritage grooming where every cut is a work of art.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/booking"
-                className="bg-indigo-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+                className="bg-white text-red-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-600"
               >
                 Book Your Appointment
               </Link>
               <Link
                 to="/services"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900"
+                className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-red-600 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-600"
               >
                 View Our Services
               </Link>
