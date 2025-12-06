@@ -175,7 +175,7 @@ const Services: React.FC = () => {
                   >
                     {service.popular && (
                       <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                        <span className="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        <span className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                           Popular
                         </span>
                       </div>
