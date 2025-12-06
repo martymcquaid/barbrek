@@ -117,7 +117,7 @@ const Navigation: React.FC<NavigationProps> = ({ isMobileMenuOpen, setIsMobileMe
               <Link
                 to="/booking"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block w-full bg-indigo-600 text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="block w-full bg-red-600 text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
               >
                 Book Now
               </Link>
