@@ -191,7 +191,7 @@ const Services: React.FC = () => {
                     </div>
                     <Link
                       to="/booking"
-                      className="block w-full bg-indigo-600 text-white text-center px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors duration-200"
+                      className="block w-full bg-red-600 text-white text-center px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200"
                     >
                       Book Now
                     </Link>
