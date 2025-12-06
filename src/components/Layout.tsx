@@ -59,19 +59,17 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* About */}
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <svg
-                  className="w-8 h-8 text-indigo-400"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
-                </svg>
-                <span className="text-xl font-bold">Classic Cuts</span>
+                <div className="relative">
+                  <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center">
+                    <div className="w-5 h-5 bg-white rounded-full"></div>
+                  </div>
+                  <div className="absolute -top-1 -right-1 w-2 h-2 bg-blue-600 rounded-full"></div>
+                </div>
+                <span className="text-xl font-bold font-serif">Armagh Barber Co.</span>
               </div>
               <p className="text-gray-300 mb-4 max-w-md">
-                Your premier destination for classic and modern barber services. 
-                Experience the perfect blend of tradition and style in a comfortable, 
-                welcoming atmosphere.
+                Armagh's premier traditional barbershop since 1985. Experience timeless craftsmanship 
+                and modern style in the heart of Cathedral City. Where heritage meets contemporary grooming.
               </p>
               <div className="flex space-x-4">
                 <a
