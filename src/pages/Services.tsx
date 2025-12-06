@@ -180,7 +180,7 @@ const Services: React.FC = () => {
                         </span>
                       </div>
                     )}
-                    <div className="text-indigo-600 text-3xl font-bold mb-2">{service.price}</div>
+                    <div className="text-red-600 text-3xl font-bold mb-2">{service.price}</div>
                     <h3 className="text-xl font-semibold mb-2">{service.name}</h3>
                     <p className="text-gray-600 mb-4">{service.description}</p>
                     <div className="flex items-center text-sm text-gray-500 mb-4">
