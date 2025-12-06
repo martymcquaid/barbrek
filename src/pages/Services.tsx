@@ -225,21 +225,21 @@ const Services: React.FC = () => {
       </section>
 
       {/* Membership Section */}
-      <section className="py-16 bg-gradient-to-r from-gray-900 to-indigo-900 text-white">
+      <section className="py-16 bg-gradient-to-r from-red-800 to-red-900 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">Join Our Membership Program</h2>
+            <h2 className="text-3xl font-bold mb-4 font-serif">Join Our Gentlemen's Club</h2>
             <p className="text-xl mb-8">
-              Get unlimited haircuts and exclusive discounts with our monthly membership
+              Traditional membership for our loyal clients. Experience the heritage of Armagh Barber Co.
             </p>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8">
-              <div className="text-4xl font-bold mb-4">$89<span className="text-xl font-normal">/month</span></div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border-2 border-red-600">
+              <div className="text-4xl font-bold mb-4">£75<span className="text-xl font-normal">/month</span></div>
               <ul className="text-left max-w-md mx-auto mb-8 space-y-3">
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
-                  Unlimited classic haircuts
+                  Unlimited classic cuts
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -257,14 +257,14 @@ const Services: React.FC = () => {
                   <svg className="w-5 h-5 text-green-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
-                  Free styling products monthly
+                  Free hot towel treatment monthly
                 </li>
               </ul>
               <Link
                 to="/booking"
-                className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
+                className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-red-50 transition-colors duration-200"
               >
-                Sign Up for Membership
+                Join Gentlemen's Club
               </Link>
             </div>
           </div>
