@@ -177,8 +177,8 @@ const Home: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 p-6">
-                <div className="text-indigo-600 text-3xl font-bold mb-2">{service.price}</div>
+              <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 p-6 border-2 border-red-100">
+                <div className="text-red-600 text-3xl font-bold mb-2">{service.price}</div>
                 <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <div className="flex items-center text-sm text-gray-500">
