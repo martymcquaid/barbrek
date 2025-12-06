@@ -235,15 +235,16 @@ const Home: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+      <section className="py-16 bg-gradient-to-r from-red-600 to-red-800 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Ready for Your Best Look?</h2>
+          <h2 className="text-4xl font-bold mb-4">Ready for Your Traditional Cut?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join our satisfied clients and experience the difference a professional cut can make
+            Experience the heritage and craftsmanship of Armagh's finest barbershop. 
+            Where tradition meets perfection.
           </p>
           <Link
             to="/booking"
-            className="bg-white text-indigo-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600"
+            className="bg-white text-red-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-600"
           >
             Book Your Appointment Today
           </Link>
