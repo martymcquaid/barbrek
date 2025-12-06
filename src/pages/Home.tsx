@@ -193,7 +193,7 @@ const Home: React.FC = () => {
           <div className="text-center mt-8">
             <Link
               to="/services"
-              className="inline-flex items-center text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-200"
+              className="inline-flex items-center text-red-600 font-semibold hover:text-red-700 transition-colors duration-200"
             >
               View All Services
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
