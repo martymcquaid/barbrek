@@ -149,12 +149,12 @@ const Services: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16">
+      <section className="bg-gradient-to-r from-red-600 to-red-800 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">Our Services</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-4 font-serif">Our Traditional Services</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            Professional grooming services tailored to your style. From classic cuts to modern treatments, 
-            we've got everything you need to look and feel your best.
+            Time-honored grooming services in the heart of Armagh. From classic scissor cuts 
+            to traditional hot towel shaves, we deliver authentic barbering excellence.
           </p>
         </div>
       </section>
