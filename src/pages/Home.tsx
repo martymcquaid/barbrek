@@ -134,6 +134,12 @@ const Home: React.FC = () => {
       {/* Features Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Armagh Barber Co.?</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Four decades of traditional barbering excellence in the heart of Cathedral City
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center group">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-red-600 transition-colors duration-300">
