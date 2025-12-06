@@ -169,8 +169,8 @@ const Services: React.FC = () => {
                 {category.items.map((service, serviceIndex) => (
                   <div
                     key={serviceIndex}
-                    className={`relative bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 p-6 ${
-                      service.popular ? 'ring-2 ring-indigo-500' : ''
+                    className={`relative bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 p-6 border-2 border-red-100 ${
+                      service.popular ? 'ring-2 ring-red-500' : ''
                     }`}
                   >
                     {service.popular && (
